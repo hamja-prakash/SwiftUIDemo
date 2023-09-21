@@ -10,8 +10,11 @@ import SwiftUI
 @main
 struct SwiftUIDemoApp: App {
     var body: some Scene {
+        let persistenceController = PersistenceController.shared
         WindowGroup {
-            ContentView()
+           Loginpage()
+                .environment(\.managedObjectContext,
+                             persistenceController.container.viewContext)
         }
     }
 }

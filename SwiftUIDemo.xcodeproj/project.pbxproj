@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8426CA3F2ABAD2F300600A98 /* CoreDataDemoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426CA3E2ABAD2F300600A98 /* CoreDataDemoViewModel.swift */; };
+		8426CA412ABB03B600600A98 /* VideoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426CA402ABB03B600600A98 /* VideoListViewModel.swift */; };
+		842820332A9E13CD0042F68C /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842820322A9E13CD0042F68C /* DetailsView.swift */; };
+		84AF9A5F2A9DAEC00005D307 /* ListviewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF9A5E2A9DAEC00005D307 /* ListviewDemo.swift */; };
+		84B015172AB9652300A14F91 /* Demo1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B015162AB9652300A14F91 /* Demo1.swift */; };
+		84B015192AB99EE100A14F91 /* LazyGridDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B015182AB99EE100A14F91 /* LazyGridDemo.swift */; };
+		84B0151B2AB9BB3200A14F91 /* CoreDataDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B0151A2AB9BB3200A14F91 /* CoreDataDemo.swift */; };
+		84B0151E2AB9BBDD00A14F91 /* Users.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84B0151C2AB9BBDD00A14F91 /* Users.xcdatamodeld */; };
+		84B015202AB9BC6100A14F91 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B0151F2AB9BC6100A14F91 /* PersistenceController.swift */; };
+		84B015222AB9BCBB00A14F91 /* AddUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B015212AB9BCBB00A14F91 /* AddUser.swift */; };
+		84B0BC472AAEE2AB00E86635 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B0BC462AAEE2AB00E86635 /* HomePage.swift */; };
 		84D9E9EF2A970E1700E8173A /* SwiftUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9E9EE2A970E1700E8173A /* SwiftUIDemoApp.swift */; };
 		84D9E9F12A970E1700E8173A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9E9F02A970E1700E8173A /* ContentView.swift */; };
 		84D9E9F32A970E1900E8173A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D9E9F22A970E1900E8173A /* Assets.xcassets */; };
@@ -14,6 +25,10 @@
 		84D9EA002A970E1900E8173A /* SwiftUIDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9E9FF2A970E1900E8173A /* SwiftUIDemoTests.swift */; };
 		84D9EA0A2A970E1900E8173A /* SwiftUIDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9EA092A970E1900E8173A /* SwiftUIDemoUITests.swift */; };
 		84D9EA0C2A970E1900E8173A /* SwiftUIDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9EA0B2A970E1900E8173A /* SwiftUIDemoUITestsLaunchTests.swift */; };
+		84D9EA192A9718D000E8173A /* Nunito-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84D9EA182A9718D000E8173A /* Nunito-Italic-VariableFont_wght.ttf */; };
+		84E6C2FF2A9C589900015C16 /* Loginpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6C2FE2A9C589900015C16 /* Loginpage.swift */; };
+		84E85FB72A9880FE0066BC10 /* WhetherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E85FB62A9880FE0066BC10 /* WhetherButton.swift */; };
+		84FD6A962AB035E9009ED0C9 /* ShapesDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD6A952AB035E9009ED0C9 /* ShapesDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +49,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8426CA3E2ABAD2F300600A98 /* CoreDataDemoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataDemoViewModel.swift; sourceTree = "<group>"; };
+		8426CA402ABB03B600600A98 /* VideoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListViewModel.swift; sourceTree = "<group>"; };
+		842820322A9E13CD0042F68C /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		84AF9A5E2A9DAEC00005D307 /* ListviewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListviewDemo.swift; sourceTree = "<group>"; };
+		84B015162AB9652300A14F91 /* Demo1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo1.swift; sourceTree = "<group>"; };
+		84B015182AB99EE100A14F91 /* LazyGridDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridDemo.swift; sourceTree = "<group>"; };
+		84B0151A2AB9BB3200A14F91 /* CoreDataDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataDemo.swift; sourceTree = "<group>"; };
+		84B0151D2AB9BBDD00A14F91 /* Users.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Users.xcdatamodel; sourceTree = "<group>"; };
+		84B0151F2AB9BC6100A14F91 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		84B015212AB9BCBB00A14F91 /* AddUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUser.swift; sourceTree = "<group>"; };
+		84B0BC462AAEE2AB00E86635 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		84D9E9EB2A970E1700E8173A /* SwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D9E9EE2A970E1700E8173A /* SwiftUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemoApp.swift; sourceTree = "<group>"; };
 		84D9E9F02A970E1700E8173A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +70,11 @@
 		84D9EA052A970E1900E8173A /* SwiftUIDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D9EA092A970E1900E8173A /* SwiftUIDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemoUITests.swift; sourceTree = "<group>"; };
 		84D9EA0B2A970E1900E8173A /* SwiftUIDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84D9EA182A9718D000E8173A /* Nunito-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		84D9EA1A2A97219D00E8173A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		84E6C2FE2A9C589900015C16 /* Loginpage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loginpage.swift; sourceTree = "<group>"; };
+		84E85FB62A9880FE0066BC10 /* WhetherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhetherButton.swift; sourceTree = "<group>"; };
+		84FD6A952AB035E9009ED0C9 /* ShapesDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,9 +102,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8426CA3D2ABAD2B200600A98 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8426CA3E2ABAD2F300600A98 /* CoreDataDemoViewModel.swift */,
+				8426CA402ABB03B600600A98 /* VideoListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		84AF9A5B2A9DA27A0005D307 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				84E85FB62A9880FE0066BC10 /* WhetherButton.swift */,
+				84B0151F2AB9BC6100A14F91 /* PersistenceController.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		84AF9A5C2A9DA29C0005D307 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84D9E9F02A970E1700E8173A /* ContentView.swift */,
+				84E6C2FE2A9C589900015C16 /* Loginpage.swift */,
+				84AF9A5E2A9DAEC00005D307 /* ListviewDemo.swift */,
+				842820322A9E13CD0042F68C /* DetailsView.swift */,
+				84B0BC462AAEE2AB00E86635 /* HomePage.swift */,
+				84FD6A952AB035E9009ED0C9 /* ShapesDemo.swift */,
+				84B015162AB9652300A14F91 /* Demo1.swift */,
+				84B015182AB99EE100A14F91 /* LazyGridDemo.swift */,
+				84B0151A2AB9BB3200A14F91 /* CoreDataDemo.swift */,
+				84B015212AB9BCBB00A14F91 /* AddUser.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84AF9A5D2A9DA2D50005D307 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				84D9EA182A9718D000E8173A /* Nunito-Italic-VariableFont_wght.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		84D9E9E22A970E1700E8173A = {
 			isa = PBXGroup;
 			children = (
+				84B0151C2AB9BBDD00A14F91 /* Users.xcdatamodeld */,
 				84D9E9ED2A970E1700E8173A /* SwiftUIDemo */,
 				84D9E9FE2A970E1900E8173A /* SwiftUIDemoTests */,
 				84D9EA082A970E1900E8173A /* SwiftUIDemoUITests */,
@@ -94,8 +169,12 @@
 		84D9E9ED2A970E1700E8173A /* SwiftUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8426CA3D2ABAD2B200600A98 /* ViewModels */,
+				84AF9A5D2A9DA2D50005D307 /* Fonts */,
+				84AF9A5B2A9DA27A0005D307 /* Common */,
+				84AF9A5C2A9DA29C0005D307 /* Views */,
+				84D9EA1A2A97219D00E8173A /* Info.plist */,
 				84D9E9EE2A970E1700E8173A /* SwiftUIDemoApp.swift */,
-				84D9E9F02A970E1700E8173A /* ContentView.swift */,
 				84D9E9F22A970E1900E8173A /* Assets.xcassets */,
 				84D9E9F42A970E1900E8173A /* Preview Content */,
 			);
@@ -232,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84D9E9F62A970E1900E8173A /* Preview Assets.xcassets in Resources */,
+				84D9EA192A9718D000E8173A /* Nunito-Italic-VariableFont_wght.ttf in Resources */,
 				84D9E9F32A970E1900E8173A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +337,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B015172AB9652300A14F91 /* Demo1.swift in Sources */,
+				8426CA412ABB03B600600A98 /* VideoListViewModel.swift in Sources */,
+				84B015202AB9BC6100A14F91 /* PersistenceController.swift in Sources */,
+				84B0151B2AB9BB3200A14F91 /* CoreDataDemo.swift in Sources */,
+				84E6C2FF2A9C589900015C16 /* Loginpage.swift in Sources */,
+				842820332A9E13CD0042F68C /* DetailsView.swift in Sources */,
+				84FD6A962AB035E9009ED0C9 /* ShapesDemo.swift in Sources */,
+				84B015192AB99EE100A14F91 /* LazyGridDemo.swift in Sources */,
 				84D9E9F12A970E1700E8173A /* ContentView.swift in Sources */,
+				84B015222AB9BCBB00A14F91 /* AddUser.swift in Sources */,
+				8426CA3F2ABAD2F300600A98 /* CoreDataDemoViewModel.swift in Sources */,
+				84AF9A5F2A9DAEC00005D307 /* ListviewDemo.swift in Sources */,
+				84B0151E2AB9BBDD00A14F91 /* Users.xcdatamodeld in Sources */,
 				84D9E9EF2A970E1700E8173A /* SwiftUIDemoApp.swift in Sources */,
+				84E85FB72A9880FE0066BC10 /* WhetherButton.swift in Sources */,
+				84B0BC472AAEE2AB00E86635 /* HomePage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +513,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDemo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -447,6 +542,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDemo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -577,6 +673,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84B0151C2AB9BBDD00A14F91 /* Users.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84B0151D2AB9BBDD00A14F91 /* Users.xcdatamodel */,
+			);
+			currentVersion = 84B0151D2AB9BBDD00A14F91 /* Users.xcdatamodel */;
+			path = Users.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 84D9E9E32A970E1700E8173A /* Project object */;
 }
