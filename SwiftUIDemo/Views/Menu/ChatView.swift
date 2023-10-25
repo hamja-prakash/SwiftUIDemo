@@ -8,13 +8,26 @@
 import SwiftUI
 
 struct ChatView: View {
+    
+    @Binding var presentSideMenu: Bool
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-struct ChatView_Previews: PreviewProvider {
-    static var previews: some View {
-        ChatView()
+        VStack{
+            HStack{
+                Button{
+                    presentSideMenu.toggle()
+                } label: {
+                    Image("menu")
+                        .resizable()
+                        .frame(width: 32, height: 32)
+                }
+                Spacer()
+            }
+            
+            Spacer()
+            Text("Chat View")
+            Spacer()
+        }
+        .padding(.horizontal, 24)
     }
 }

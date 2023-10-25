@@ -1,20 +1,33 @@
-//
-//  HomeView.swift
-//  SwiftUIDemo
-//
-//  Created by Admin on 23/09/23.
-//
-
 import SwiftUI
 
 struct HomeView: View {
+    
+    @Binding var presentSideMenu: Bool
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
+        VStack{
+            HStack{
+                Button {
+                    presentSideMenu.toggle()
+                } label: {
+                    Image("menu")
+                        .resizable()
+                        .frame(width: 32, height: 32)
+                }
+                .padding(.leading, 16)
+                Spacer()
+                
+            }
+            .frame(height: 50)
+            .background(Color.gray.opacity(0.3))
 
-struct HomeView_Previews: PreviewProvider {
-    static var previews: some View {
-        HomeView()
+            Spacer()
+            
+            Text("Home View")
+            
+            Spacer()
+        }
+        .navigationBarTitleDisplayMode(.inline)
+        .navigationBarHidden(true)
     }
 }

@@ -54,6 +54,7 @@ struct ListviewDemo: View {
         }
         .navigationBarTitleDisplayMode(.inline)
         .background(Color.white)
+//        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
     }
 
 }

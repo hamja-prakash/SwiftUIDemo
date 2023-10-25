@@ -8,13 +8,26 @@
 import SwiftUI
 
 struct FavoriteView: View {
+    
+    @Binding var presentSideMenu: Bool
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-struct FavoriteView_Previews: PreviewProvider {
-    static var previews: some View {
-        FavoriteView()
+        VStack{
+            HStack{
+                Button{
+                    presentSideMenu.toggle()
+                } label: {
+                    Image("menu")
+                        .resizable()
+                        .frame(width: 32, height: 32)
+                }
+                Spacer()
+            }
+            
+            Spacer()
+            Text("Favorite View")
+            Spacer()
+        }
+        .padding(.horizontal, 24)
     }
 }

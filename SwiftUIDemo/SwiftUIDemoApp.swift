@@ -12,7 +12,7 @@ struct SwiftUIDemoApp: App {
     var body: some Scene {
         let persistenceController = PersistenceController.shared
         WindowGroup {
-           Loginpage()
+            Loginpage()
                 .environment(\.managedObjectContext,
                              persistenceController.container.viewContext)
         }

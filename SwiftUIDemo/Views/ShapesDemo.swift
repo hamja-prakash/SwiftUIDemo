@@ -31,7 +31,6 @@ struct ShapesDemo: View {
                         Image(systemName: "xmark")
                             .font(.title)
                             .foregroundColor(.black)
-                            .cornerRadius(10)
                     }
                     
                     Spacer()
@@ -43,7 +42,6 @@ struct ShapesDemo: View {
                             .font(.title)
                             .font(.title)
                             .foregroundColor(.black)
-                            .cornerRadius(10)
                     }
                 }
                 .font(.title)
@@ -56,7 +54,9 @@ struct ShapesDemo: View {
                     .padding(.bottom,10)
                     .frame(maxWidth: .infinity)
                     .edgesIgnoringSafeArea(.horizontal)
+                
                 ScrollView (showsIndicators: false){
+                    
                 VStack(alignment: .center, spacing: 20) {
                     RoundedRectangle(cornerRadius: 40)
                         .fill(Color("CustomColor"))

@@ -16,29 +16,6 @@ struct CoreDataDemo: View {
     public var Users: FetchedResults<User>
     @EnvironmentObject private var vm : CoreDataViewModel
     
-    private var filteredUsers: [User] {
-        let searchTextLowercased = SearchText.lowercased()
-        
-        if searchTextLowercased.isEmpty {
-            return Array(Users)
-        } else {
-            let filtered = Users.filter { user in
-                let userFirstname = (user.firstname ?? "").lowercased()
-                let userLastname = (user.lastname ?? "").lowercased()
-               
-                return userFirstname.contains(searchTextLowercased) ||
-                       userLastname.contains(searchTextLowercased)
-            }
-            
-            if filtered.isEmpty {
-                return []
-            } else {
-                return Array(filtered)
-            }
-        }
-    }
-
-    
     var body: some View {
 //        NavigationView {
             ZStack(alignment: .bottomTrailing){
@@ -156,6 +133,28 @@ struct CoreDataDemo: View {
             .navigationBarHidden(false)
         }
 //    }
+    
+    private var filteredUsers: [User] {
+        let searchTextLowercased = SearchText.lowercased()
+        
+        if searchTextLowercased.isEmpty {
+            return Array(Users)
+        } else {
+            let filtered = Users.filter { user in
+                let userFirstname = (user.firstname ?? "").lowercased()
+                let userLastname = (user.lastname ?? "").lowercased()
+               
+                return userFirstname.contains(searchTextLowercased) ||
+                       userLastname.contains(searchTextLowercased)
+            }
+            
+            if filtered.isEmpty {
+                return []
+            } else {
+                return Array(filtered)
+            }
+        }
+    }
     
     private func deleteUser(_ user: User) {
         viewContext.delete(user)
