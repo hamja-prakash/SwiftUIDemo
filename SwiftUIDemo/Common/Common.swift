@@ -36,6 +36,7 @@ struct SearchBar : View{
             .padding()
             .offset(x: 20)
             .foregroundColor(.secondary)
+            .opacity(searchText.isEmpty ? 0 : 1)
             .onTapGesture{ searchText = ""}
     }
     .frame(height: 40)
